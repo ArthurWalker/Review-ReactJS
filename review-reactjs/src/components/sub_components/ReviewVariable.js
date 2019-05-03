@@ -15,7 +15,7 @@ function decide_time(hours){
     return timeOfDay
 }
 
-function Main(){
+function ReviewVariable(){
     const firstName ='Pham'
     const lastName='Phuc'
     const date = new Date()
@@ -29,7 +29,7 @@ function Main(){
     }
 
     return (
-        <main className='Main'>
+        <main className='ReviewVariable'>
             <h3 style={style2}>This is Main component</h3>
             <h4>Hello {firstName +" "+ lastName} !</h4>
             <h4 style={{backgroundColor:'red'}}>Good {timeOfDay} !</h4>
@@ -38,4 +38,4 @@ function Main(){
 
 }
 
-export default Main;
+export default ReviewVariable;
