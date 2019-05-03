@@ -3,6 +3,7 @@ import ReviewVariable from './sub_components/ReviewVariable';
 import Prop1 from './sub_components/Prop1';
 import Prop2 from './sub_components/Prop2';
 import Array from './sub_components/Array';
+import Class1stCom from './sub_components/Class1stCom'
 
 function Main(){
     return (
@@ -15,6 +16,8 @@ function Main(){
             <Prop2/>
             {/**Lesson 4 */}
             <Array/>
+            {/**Lesson 5 */}
+            <Class1stCom/>
         </div>
     )
 }
