@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// The main component contains all other components
-import App from './App';
+import './css/index.css';
 import * as serviceWorker from './serviceWorker';
-
+// The main component contains all other components
+import App from './components/App';
 
 // ReactDom.render will take component <App/> and put into the element root tag from index.html
 // The first parameter in ReactDom.render accepts only 1 element so all of actions will happen inside <App />
