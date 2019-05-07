@@ -1,7 +1,7 @@
 import React from 'react';
 import './../../css/main.css'
 
-class Decide_Time extends React.Component{
+class DecideTime extends React.Component{
     render(){
         const date = new Date()
         const hours = date.getHours()
@@ -36,7 +36,7 @@ class ReviewVariable extends React.Component{
             <main className='ReviewVariable'>
                 <h3 style={style2}>This is Main component</h3>
                 <h4>Hello {firstName +" "+ lastName} !</h4>
-                <Decide_Time/>
+                <DecideTime/>
             </main>
         );
     

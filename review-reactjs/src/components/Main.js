@@ -7,6 +7,10 @@ import Class1stCom from './sub_components/Class1stCom'
 import State1 from './sub_components/State1'
 import State2 from './sub_components/State2'
 import HandleEvent from './sub_components/HandleEvent'
+import LifeCycle from './sub_components/LifeCycle'
+import ConditionRendering from './sub_components/ConditionRendering'
+import FetchingAPI from './sub_components/FetchingAPI'
+
 
 class Main extends React.Component{
     render(){
@@ -28,6 +32,12 @@ class Main extends React.Component{
                 <State2/>
                 {/**Lesson 8 */}
                 <HandleEvent/>
+                {/**Lesson 9 */}
+                <LifeCycle/>
+                {/**Lesson 10 */}
+                <ConditionRendering/>
+                {/**Lesson 11 */}
+                <FetchingAPI/>
             </div>
         )
     }

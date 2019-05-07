@@ -33,7 +33,7 @@ class HandleEvent extends React.Component{
     render(){
         return(
             <div>
-                <img onMouseOver={this.handleMouseOver} src='https://www.w3schools.com/w3css/img_lights.jpg'/>
+                <img alt='' onMouseOver={this.handleMouseOver} src='https://www.w3schools.com/w3css/img_lights.jpg'/>
                 <br/><br/>
                 <h1>{this.state.count}</h1>
                 <button onClick={this.handleClick}>Change</button>

@@ -11,7 +11,7 @@ class ContactCard extends React.Component{
                     <img src = {props.imgUrl} style={{height:'50px',width:'50px'}}/>
                 */}
                 {this.props.contact.name}
-                <img src = {this.props.contact.imgUrl} style={{height:'50px',width:'50px'}}/>
+                <img alt='' src = {this.props.contact.imgUrl} style={{height:'50px',width:'50px'}}/>
             </div>
         )
     }
