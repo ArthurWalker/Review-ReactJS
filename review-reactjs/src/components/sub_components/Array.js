@@ -11,9 +11,9 @@ class Array extends React.Component{
     // console.log(double)
 
     const jokeComponents = JokeData.map((joke) =>{
-        return (<div style={{backgroundColor:'green'}}>
-            <Joke key={joke.id} question={joke.question} answer={joke.answer}/>
-        </div>)})
+        return (
+            <Joke backgroundColor={'green'} key={joke.id} question={joke.question} answer={joke.answer}/>
+        )})
 
     return(<div>
         {jokeComponents}
