@@ -10,7 +10,7 @@ import HandleEvent from './sub_components/HandleEvent'
 import LifeCycle from './sub_components/LifeCycle'
 import ConditionRendering from './sub_components/ConditionRendering'
 import FetchingAPI from './sub_components/FetchingAPI'
-
+import FormExercise from './sub_components/FormExercise'
 
 class Main extends React.Component{
     render(){
@@ -38,6 +38,8 @@ class Main extends React.Component{
                 <ConditionRendering/>
                 {/**Lesson 11 */}
                 <FetchingAPI/>
+                {/**Lesson 12 */}
+                <FormExercise/>
             </div>
         )
     }
