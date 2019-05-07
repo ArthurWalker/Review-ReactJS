@@ -8,16 +8,20 @@ import Main from './Main';
 
 // These 2 ways of writing are similar
 // const App = () => 
-function App() {
+
+class App extends React.Component{
+  render(){
   // Cant return more than 1 elements in a return function
-  return (
-    // Using classname to access DOM. For example: document.getElementById('something').className+='new-class'
-    <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
-    </div>
-  );
+    return (
+      // Using classname to access DOM. For example: document.getElementById('something').className+='new-class'
+      <div className="App">
+        <Header/>
+        <Main/>
+        <Footer/>
+      </div>
+    );
+  }
 }
+
 
 export default App;
